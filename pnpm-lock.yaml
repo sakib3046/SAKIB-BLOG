@@ -8,21 +8,36 @@ importers:
 
   .:
     dependencies:
+      '@next/env':
+        specifier: ^14.2.13
+        version: 14.2.13
       '@portabletext/react':
         specifier: 3.0.11
         version: 3.0.11(react@18.2.0)
+      '@portabletext/types':
+        specifier: ^2.0.13
+        version: 2.0.13
       '@sanity/client':
         specifier: 6.12.3
         version: 6.12.3
       '@sanity/demo':
         specifier: 1.0.2
         version: 1.0.2(@sanity/color@3.0.6)(tailwindcss@3.4.1)
+      '@sanity/image-url':
+        specifier: ^1.0.2
+        version: 1.0.2
+      '@sanity/types':
+        specifier: ^3.57.4
+        version: 3.57.4
       '@sanity/vision':
         specifier: 3.28.0
         version: 3.28.0(@babel/runtime@7.25.6)(@codemirror/lint@6.8.1)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@lezer/common@1.2.1)(codemirror@6.0.1(@lezer/common@1.2.1))(react-dom@18.2.0(react@18.2.0))(react-is@18.3.1)(react@18.2.0)(styled-components@6.1.8(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
       '@tailwindcss/typography':
         specifier: 0.5.10
         version: 0.5.10(tailwindcss@3.4.1)
+      groq:
+        specifier: ^3.57.4
+        version: 3.57.4
       next:
         specifier: 14.1.0
         version: 14.1.0(@babel/core@7.25.2)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -623,6 +638,9 @@ packages:
 
   '@next/env@14.1.0':
     resolution: {integrity: sha512-Py8zIo+02ht82brwwhTg36iogzFqGLPXlRGKQw5s+qP/kMNc4MAyDeEwBKDijk6zTIbegEgu8Qy7C1LboslQAw==}
+
+  '@next/env@14.2.13':
+    resolution: {integrity: sha512-s3lh6K8cbW1h5Nga7NNeXrbe0+2jIIYK9YaA9T7IufDWnZpozdFUp6Hf0d5rNWUKu4fEuSX2rCKlGjCrtylfDw==}
 
   '@next/eslint-plugin-next@14.1.0':
     resolution: {integrity: sha512-x4FavbNEeXx/baD/zC/SdrvkjSby8nBn8KcCREqk6UuwvwoAPZmaV8TFCAuo/cpovBRTIY67mHhe86MQQm/68Q==}
@@ -4417,6 +4435,8 @@ snapshots:
       '@lezer/common': 1.2.1
 
   '@next/env@14.1.0': {}
+
+  '@next/env@14.2.13': {}
 
   '@next/eslint-plugin-next@14.1.0':
     dependencies:
