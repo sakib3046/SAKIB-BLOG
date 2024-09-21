@@ -55,7 +55,8 @@
 }
 
 html {
-  background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
+  background-color: #6e7683;
+  /* background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: var(--font-family-sans), var(--font-family-serif), sans-serif;
